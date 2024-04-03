@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj": {}
+    "D:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj": {
+    "D:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj",
+        "projectUniqueName": "D:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj",
         "projectName": "LR3",
-        "projectPath": "E:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj",
+        "projectPath": "D:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\C#\\OOP\\LR3\\LR3\\obj\\",
+        "outputPath": "D:\\Projects\\C#\\OOP\\LR3\\LR3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
