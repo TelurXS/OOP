@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\C#\\OOP\\LR3\\Presentation\\Presentation.csproj": {}
+    "E:\\Projects\\C#\\OOP\\LR3\\Presentation\\Presentation.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj": {
+    "E:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj",
+        "projectUniqueName": "E:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj",
         "projectName": "LR3",
-        "projectPath": "D:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj",
+        "projectPath": "E:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\C#\\OOP\\LR3\\LR3\\obj\\",
+        "outputPath": "E:\\Projects\\C#\\OOP\\LR3\\LR3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,14 +59,14 @@
         }
       }
     },
-    "D:\\Projects\\C#\\OOP\\LR3\\Presentation\\Presentation.csproj": {
+    "E:\\Projects\\C#\\OOP\\LR3\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\C#\\OOP\\LR3\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "E:\\Projects\\C#\\OOP\\LR3\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "D:\\Projects\\C#\\OOP\\LR3\\Presentation\\Presentation.csproj",
+        "projectPath": "E:\\Projects\\C#\\OOP\\LR3\\Presentation\\Presentation.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\C#\\OOP\\LR3\\Presentation\\obj\\",
+        "outputPath": "E:\\Projects\\C#\\OOP\\LR3\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,15 +77,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj": {
-                "projectPath": "D:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj"
+              "E:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj": {
+                "projectPath": "E:\\Projects\\C#\\OOP\\LR3\\LR3\\LR3.csproj"
               }
             }
           }
@@ -100,11 +93,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
