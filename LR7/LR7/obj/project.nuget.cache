@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "s3Ju3uPTJhVSs+h7eD7W0NWC67xFBFmhwhbeWvekaw+saEifJEZC8Mm7sfXWqdy5Cw+CW6o/HdJ7Q6zF+K23Zw==",
+  "dgSpecHash": "OvV4Pjyc0gJMCng1BvOYVljekpZ+migxZuoN0gbmW/t1s4EqZYLcs90AT/FErmEtFUdKjKDVatsCJJcblvY2pA==",
   "success": true,
   "projectFilePath": "E:\\Projects\\C#\\OOP\\LR7\\LR7\\LR7.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

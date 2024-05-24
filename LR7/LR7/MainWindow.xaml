@@ -10,7 +10,20 @@
         Title="{x:Static loc:Strings.MainWindow_Title}" 
         Height="450" 
         Width="800" 
-        Style="{StaticResource Window}">
+        Style="{DynamicResource Window}">
+
+    <Window.InputBindings>
+        <KeyBinding Command="{Binding OpenFileCommand}" CommandParameter="RTF">
+            <KeyBinding.Gesture>
+                <KeyGesture>Ctrl+O</KeyGesture>
+            </KeyBinding.Gesture>
+        </KeyBinding>
+        <KeyBinding Command="{Binding SaveFileCommand}" CommandParameter="TXT">
+            <KeyBinding.Gesture>
+                <KeyGesture>Ctrl+S</KeyGesture>
+            </KeyBinding.Gesture>
+        </KeyBinding>
+    </Window.InputBindings>
 
     <Grid>
         <Grid.RowDefinitions>
@@ -21,8 +34,44 @@
         </Grid.RowDefinitions>
 
         <Menu Grid.Row="0">
-            <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_File}"></MenuItem>
-            <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_Edit}"></MenuItem>
+            <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_File}">
+                <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_File_Open}">
+
+                    <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_File_Open_Rtf}"
+                              Command="{Binding OpenFileCommand}"
+                              CommandParameter="RTF"></MenuItem>
+
+                    <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_File_Open_Txt}"
+                              Command="{Binding OpenFileCommand}"
+                              CommandParameter="TXT"></MenuItem>
+                </MenuItem>
+
+                <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_File_Save}">
+
+                    <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_File_Save_Rtf}"
+                              Command="{Binding SaveFileCommand}"
+                              CommandParameter="RTF"></MenuItem>
+
+                    <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_File_Save_Txt}"
+                              Command="{Binding SaveFileCommand}"
+                              CommandParameter="TXT"></MenuItem>
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_Edit}">
+
+                <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_Edit_SyntaxHighlighting}">
+
+                    <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_Edit_SyntaxHighlighting_On}"
+                              Command="{Binding SetSyntaxHighlightingCommand}"
+                              CommandParameter="true"></MenuItem>
+
+                    <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_Edit_SyntaxHighlighting_Off}"
+                              Command="{Binding SetSyntaxHighlightingCommand}"
+                              CommandParameter="false"></MenuItem>
+                
+                </MenuItem>
+            </MenuItem>
 
             <MenuItem Header="{x:Static loc:Strings.MainWindow_Menu_Theme}">
 
@@ -49,44 +98,89 @@
 
         <ToolBar Grid.Row="1">
 
-            <ComboBox MinWidth="100" Style="{StaticResource ComboBox}" Padding="2, 0, 2, 0">
-                <ComboBoxItem>Times New Roman</ComboBoxItem>
-                <ComboBoxItem>Comic Sans</ComboBoxItem>
+            <ComboBox x:Name="ComboBox_FontFamily" MinWidth="100" Style="{DynamicResource ComboBox}" Padding="2, 0, 2, 0"
+                      SelectionChanged="ComboBox_FontFamily_SelectionChanged">
             </ComboBox>
 
-            <ComboBox MinWidth="70" Style="{StaticResource ComboBox}" Padding="2, 0, 2, 0">
-                <ComboBoxItem>10</ComboBoxItem>
-                <ComboBoxItem>12</ComboBoxItem>
-                <ComboBoxItem>14</ComboBoxItem>
+            <ComboBox x:Name="ComboBox_FontSize" MinWidth="70" Style="{DynamicResource ComboBox}" Padding="2, 0, 2, 0" IsEditable="True"
+                      TextBoxBase.TextChanged="ComboBox_FontSize_TextChanged">
             </ComboBox>
-            
+
             <Separator/>
 
-            <ToggleButton Margin="2, 0, 3, 0">
+            <ToggleButton x:Name="Button_Bold" Margin="2, 0, 3, 0"
+                          Command="EditingCommands.ToggleBold">
                 <TextBlock FontWeight="Bold" FontSize="22" LineStackingStrategy="BlockLineHeight" LineHeight="22" Margin="2,0,2,0">
                     B
                 </TextBlock>
             </ToggleButton>
 
-            <ToggleButton Margin="2, 0, 3, 0">
+            <ToggleButton x:Name="Button_Italic" Margin="2, 0, 3, 0"
+                          Command="EditingCommands.ToggleItalic">
                 <TextBlock FontStyle="Italic" FontSize="22" LineStackingStrategy="BlockLineHeight" LineHeight="22" Margin="4,0,4,0">
                     I
                 </TextBlock>
             </ToggleButton>
 
-            <ToggleButton Margin="2, 0, 3, 0">
+            <ToggleButton x:Name="Button_Underline" Margin="2, 0, 3, 0"
+                          Command="EditingCommands.ToggleUnderline">
                 <TextBlock TextDecorations="Underline" FontSize="20" LineStackingStrategy="BlockLineHeight" LineHeight="20" Margin="2,0,2,0">
                     U
                 </TextBlock>
             </ToggleButton>
+
+            <ToggleButton x:Name="Button_Image" Height="22" Width="22" Margin="2, 0, 3, 0"
+                          Command="{Binding InsertImageCommand}"
+                          CommandParameter="PNG">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="/Resources/Images/image.png" Stretch="Fill" />
+                </ToggleButton.Background>
+            </ToggleButton>
+
+            <ToggleButton x:Name="Button_Allign_Left" Height="22" Width="22" Margin="2, 0, 3, 0"
+                          Command="{Binding SetTextAligmentCommand}"
+                          CommandParameter="Left">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="/Resources/Images/align-left.png" Stretch="Fill" />
+                </ToggleButton.Background>
+            </ToggleButton>
+
+            <ToggleButton x:Name="Button_Allign_Center" Height="22" Width="22" Margin="2, 0, 3, 0"
+                          Command="{Binding SetTextAligmentCommand}"
+                          CommandParameter="Center">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="/Resources/Images/format.png" Stretch="Fill" />
+                </ToggleButton.Background>
+            </ToggleButton>
+
+            <ToggleButton x:Name="Button_Allign_Right" Height="22" Width="22" Margin="2, 0, 3, 0"
+                          Command="{Binding SetTextAligmentCommand}"
+                          CommandParameter="Right">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="/Resources/Images/align-right.png" Stretch="Fill" />
+                </ToggleButton.Background>
+            </ToggleButton>
+
+            <ToggleButton x:Name="Button_Allign_Justify" Height="22" Width="22" Margin="2, 0, 3, 0"
+                          Command="{Binding SetTextAligmentCommand}"
+                          CommandParameter="Justify">
+                <ToggleButton.Background>
+                    <ImageBrush ImageSource="/Resources/Images/justify.png" Stretch="Fill" />
+                </ToggleButton.Background>
+            </ToggleButton>
         </ToolBar>
 
-        <RichTextBox Grid.Row="2">
+        <RichTextBox x:Name="RichTextBox_Content" Grid.Row="2"
+                     SelectionChanged="RichTextBox_Content_SelectionChanged"
+                     TextChanged="RichTextBox_Content_TextChanged">
 
         </RichTextBox>
 
         <StatusBar Grid.Row="3">
-
+            <TextBlock Text="{x:Static loc:Strings.MainWindow_Status_Words}"></TextBlock>
+            <TextBlock x:Name="TextBlock_Words">0</TextBlock>
+            <TextBlock Text="{x:Static loc:Strings.MainWindow_Status_Letters}"></TextBlock>
+            <TextBlock x:Name="TextBlock_Letters">0</TextBlock>
         </StatusBar>
     </Grid>
 </Window>

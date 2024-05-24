@@ -37,3 +37,11 @@ E:\Projects\C#\OOP\LR7\LR7\obj\Debug\net8.0-windows\uk-UA\LR7.resources.dll
 E:\Projects\C#\OOP\LR7\LR7\bin\Debug\net8.0-windows\Resources\Images\bold.png
 E:\Projects\C#\OOP\LR7\LR7\bin\Debug\net8.0-windows\Resources\Images\italics.png
 E:\Projects\C#\OOP\LR7\LR7\bin\Debug\net8.0-windows\Resources\Images\underline.png
+E:\Projects\C#\OOP\LR7\LR7\bin\Debug\net8.0-windows\Resources\Images\image.png
+E:\Projects\C#\OOP\LR7\LR7\bin\Debug\net8.0-windows\Resources\Images\align-left.png
+E:\Projects\C#\OOP\LR7\LR7\bin\Debug\net8.0-windows\Resources\Images\align-right.png
+E:\Projects\C#\OOP\LR7\LR7\bin\Debug\net8.0-windows\Resources\Images\format.png
+E:\Projects\C#\OOP\LR7\LR7\bin\Debug\net8.0-windows\Resources\Images\justify.png
+E:\Projects\C#\OOP\LR7\LR7\bin\Debug\net8.0-windows\Resources\Options\Highlighting.json
+E:\Projects\C#\OOP\LR7\LR7\bin\Debug\net8.0-windows\Resources\Options\Settings.json
+E:\Projects\C#\OOP\LR7\LR7\bin\Debug\net8.0-windows\Newtonsoft.Json.dll

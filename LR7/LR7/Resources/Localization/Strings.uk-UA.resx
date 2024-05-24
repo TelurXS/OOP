@@ -120,8 +120,35 @@
   <data name="MainWindow.Menu.Edit" xml:space="preserve">
     <value>Редагування</value>
   </data>
+  <data name="MainWindow.Menu.Edit.SyntaxHighlighting" xml:space="preserve">
+    <value>Підсвітка синтаксису</value>
+  </data>
+  <data name="MainWindow.Menu.Edit.SyntaxHighlighting.Off" xml:space="preserve">
+    <value>Вимк.</value>
+  </data>
+  <data name="MainWindow.Menu.Edit.SyntaxHighlighting.On" xml:space="preserve">
+    <value>Ввімк.</value>
+  </data>
   <data name="MainWindow.Menu.File" xml:space="preserve">
     <value>Файл</value>
+  </data>
+  <data name="MainWindow.Menu.File.Open" xml:space="preserve">
+    <value>Відкрити</value>
+  </data>
+  <data name="MainWindow.Menu.File.Open.Rtf" xml:space="preserve">
+    <value>RTF Файл</value>
+  </data>
+  <data name="MainWindow.Menu.File.Open.Txt" xml:space="preserve">
+    <value>TXT Файл</value>
+  </data>
+  <data name="MainWindow.Menu.File.Save" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="MainWindow.Menu.File.Save.Rtf" xml:space="preserve">
+    <value>Rich Text Format (RTF)</value>
+  </data>
+  <data name="MainWindow.Menu.File.Save.Txt" xml:space="preserve">
+    <value>Text File (TXT)</value>
   </data>
   <data name="MainWindow.Menu.Language" xml:space="preserve">
     <value>Мова</value>
@@ -140,6 +167,12 @@
   </data>
   <data name="MainWindow.Menu.Theme.Light" xml:space="preserve">
     <value>Світла</value>
+  </data>
+  <data name="MainWindow.Status.Letters" xml:space="preserve">
+    <value>Літер: </value>
+  </data>
+  <data name="MainWindow.Status.Words" xml:space="preserve">
+    <value>Слів: </value>
   </data>
   <data name="MainWindow.Title" xml:space="preserve">
     <value>Imaganary Studio: Code</value>

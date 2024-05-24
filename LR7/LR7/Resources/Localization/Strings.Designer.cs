@@ -70,11 +70,92 @@ namespace LR7.Resources.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Syntax Highlighting.
+        /// </summary>
+        public static string MainWindow_Menu_Edit_SyntaxHighlighting {
+            get {
+                return ResourceManager.GetString("MainWindow.Menu.Edit.SyntaxHighlighting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Off.
+        /// </summary>
+        public static string MainWindow_Menu_Edit_SyntaxHighlighting_Off {
+            get {
+                return ResourceManager.GetString("MainWindow.Menu.Edit.SyntaxHighlighting.Off", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to On.
+        /// </summary>
+        public static string MainWindow_Menu_Edit_SyntaxHighlighting_On {
+            get {
+                return ResourceManager.GetString("MainWindow.Menu.Edit.SyntaxHighlighting.On", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File.
         /// </summary>
         public static string MainWindow_Menu_File {
             get {
                 return ResourceManager.GetString("MainWindow.Menu.File", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open.
+        /// </summary>
+        public static string MainWindow_Menu_File_Open {
+            get {
+                return ResourceManager.GetString("MainWindow.Menu.File.Open", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to RTF File.
+        /// </summary>
+        public static string MainWindow_Menu_File_Open_Rtf {
+            get {
+                return ResourceManager.GetString("MainWindow.Menu.File.Open.Rtf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TXT File.
+        /// </summary>
+        public static string MainWindow_Menu_File_Open_Txt {
+            get {
+                return ResourceManager.GetString("MainWindow.Menu.File.Open.Txt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Save.
+        /// </summary>
+        public static string MainWindow_Menu_File_Save {
+            get {
+                return ResourceManager.GetString("MainWindow.Menu.File.Save", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rich Text Format (RTF).
+        /// </summary>
+        public static string MainWindow_Menu_File_Save_Rtf {
+            get {
+                return ResourceManager.GetString("MainWindow.Menu.File.Save.Rtf", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text File (TXT).
+        /// </summary>
+        public static string MainWindow_Menu_File_Save_Txt {
+            get {
+                return ResourceManager.GetString("MainWindow.Menu.File.Save.Txt", resourceCulture);
             }
         }
         
@@ -129,6 +210,24 @@ namespace LR7.Resources.Localization {
         public static string MainWindow_Menu_Theme_Light {
             get {
                 return ResourceManager.GetString("MainWindow.Menu.Theme.Light", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Letters:.
+        /// </summary>
+        public static string MainWindow_Status_Letters {
+            get {
+                return ResourceManager.GetString("MainWindow.Status.Letters", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Words: .
+        /// </summary>
+        public static string MainWindow_Status_Words {
+            get {
+                return ResourceManager.GetString("MainWindow.Status.Words", resourceCulture);
             }
         }
         

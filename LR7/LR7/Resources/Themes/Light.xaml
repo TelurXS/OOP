@@ -6,11 +6,13 @@
 
     <Color x:Key="ThemeColor">White</Color>
     <Color x:Key="FontColor">Black</Color>
-    <Color x:Key="DarkColor">LightGray</Color>
+    <Color x:Key="DarkColor">Gray</Color>
+    <Color x:Key="MenuBackground">LightGray</Color>
 
     <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource ThemeColor}"></SolidColorBrush>
     <SolidColorBrush x:Key="ForegroundBrush" Color="{StaticResource FontColor}"></SolidColorBrush>
-    <SolidColorBrush x:Key="MenuBackgroundBrush" Color="{StaticResource DarkColor}"></SolidColorBrush>
+    <SolidColorBrush x:Key="DarkBrush" Color="{StaticResource DarkColor}"></SolidColorBrush>
+    <SolidColorBrush x:Key="MenuBackgroundBrush" Color="{StaticResource MenuBackground}"></SolidColorBrush>
 
     <Style x:Key="Window" TargetType="{x:Type Window}">
         <Setter Property="Background" Value="{StaticResource BackgroundBrush}"/>
@@ -67,7 +69,7 @@
     </Style>
 
     <Style TargetType="{x:Type ToolBar}">
-        <Setter Property="Background" Value="{StaticResource MenuBackgroundBrush}"></Setter>
+        <Setter Property="Background" Value="{StaticResource DarkBrush}"></Setter>
     </Style>
 
     <Style TargetType="{x:Type RichTextBox}">
@@ -81,11 +83,11 @@
 
     <Style x:Key="ComboBox" TargetType="{x:Type ComboBox}">
         <Setter Property="Background" Value="{StaticResource BackgroundBrush}"></Setter>
-        <Setter Property="Foreground" Value="{StaticResource ForegroundBrush}"></Setter>
+        <Setter Property="Foreground" Value="{StaticResource BackgroundBrush}"></Setter>
     </Style>
 
     <Style TargetType="{x:Type ComboBoxItem}">
-        <Setter Property="Background" Value="{StaticResource MenuBackgroundBrush}"></Setter>
+        <Setter Property="Background" Value="{StaticResource BackgroundBrush}"></Setter>
         <Setter Property="Foreground" Value="Black"></Setter>
     </Style>
 
