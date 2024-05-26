@@ -1,0 +1,17 @@
+E:\Projects\C#\OOP\LR10\Task2\bin\Debug\net8.0-windows\Task2.exe
+E:\Projects\C#\OOP\LR10\Task2\bin\Debug\net8.0-windows\Task2.deps.json
+E:\Projects\C#\OOP\LR10\Task2\bin\Debug\net8.0-windows\Task2.runtimeconfig.json
+E:\Projects\C#\OOP\LR10\Task2\bin\Debug\net8.0-windows\Task2.dll
+E:\Projects\C#\OOP\LR10\Task2\bin\Debug\net8.0-windows\Task2.pdb
+E:\Projects\C#\OOP\LR10\Task2\obj\Debug\net8.0-windows\Task2.Form1.resources
+E:\Projects\C#\OOP\LR10\Task2\obj\Debug\net8.0-windows\Task2.csproj.GenerateResource.cache
+E:\Projects\C#\OOP\LR10\Task2\obj\Debug\net8.0-windows\Task2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\C#\OOP\LR10\Task2\obj\Debug\net8.0-windows\Task2.AssemblyInfoInputs.cache
+E:\Projects\C#\OOP\LR10\Task2\obj\Debug\net8.0-windows\Task2.AssemblyInfo.cs
+E:\Projects\C#\OOP\LR10\Task2\obj\Debug\net8.0-windows\Task2.csproj.CoreCompileInputs.cache
+E:\Projects\C#\OOP\LR10\Task2\obj\Debug\net8.0-windows\Task2.sourcelink.json
+E:\Projects\C#\OOP\LR10\Task2\obj\Debug\net8.0-windows\Task2.dll
+E:\Projects\C#\OOP\LR10\Task2\obj\Debug\net8.0-windows\refint\Task2.dll
+E:\Projects\C#\OOP\LR10\Task2\obj\Debug\net8.0-windows\Task2.pdb
+E:\Projects\C#\OOP\LR10\Task2\obj\Debug\net8.0-windows\Task2.genruntimeconfig.cache
+E:\Projects\C#\OOP\LR10\Task2\obj\Debug\net8.0-windows\ref\Task2.dll
