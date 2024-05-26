@@ -1,0 +1,17 @@
+E:\Projects\C#\OOP\LR9\LR9\bin\Debug\net8.0-windows\LR9.exe
+E:\Projects\C#\OOP\LR9\LR9\bin\Debug\net8.0-windows\LR9.deps.json
+E:\Projects\C#\OOP\LR9\LR9\bin\Debug\net8.0-windows\LR9.runtimeconfig.json
+E:\Projects\C#\OOP\LR9\LR9\bin\Debug\net8.0-windows\LR9.dll
+E:\Projects\C#\OOP\LR9\LR9\bin\Debug\net8.0-windows\LR9.pdb
+E:\Projects\C#\OOP\LR9\LR9\obj\Debug\net8.0-windows\LR9.MainForm.resources
+E:\Projects\C#\OOP\LR9\LR9\obj\Debug\net8.0-windows\LR9.csproj.GenerateResource.cache
+E:\Projects\C#\OOP\LR9\LR9\obj\Debug\net8.0-windows\LR9.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\C#\OOP\LR9\LR9\obj\Debug\net8.0-windows\LR9.AssemblyInfoInputs.cache
+E:\Projects\C#\OOP\LR9\LR9\obj\Debug\net8.0-windows\LR9.AssemblyInfo.cs
+E:\Projects\C#\OOP\LR9\LR9\obj\Debug\net8.0-windows\LR9.csproj.CoreCompileInputs.cache
+E:\Projects\C#\OOP\LR9\LR9\obj\Debug\net8.0-windows\LR9.sourcelink.json
+E:\Projects\C#\OOP\LR9\LR9\obj\Debug\net8.0-windows\LR9.dll
+E:\Projects\C#\OOP\LR9\LR9\obj\Debug\net8.0-windows\refint\LR9.dll
+E:\Projects\C#\OOP\LR9\LR9\obj\Debug\net8.0-windows\LR9.pdb
+E:\Projects\C#\OOP\LR9\LR9\obj\Debug\net8.0-windows\LR9.genruntimeconfig.cache
+E:\Projects\C#\OOP\LR9\LR9\obj\Debug\net8.0-windows\ref\LR9.dll
