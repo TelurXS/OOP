@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LR16")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43b4cce171ce8c8df66dbed085c50aac47cb4c3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ceefc3edfcf6ebbb41005243647370da45878c2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("LR16")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LR16")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

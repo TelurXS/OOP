@@ -80,7 +80,7 @@
         <Button x:Name="Button_Save"
                 Grid.Row="3"
                 Grid.Column="1"
-                Margin="2" Click="Button_Save_Click">
+                Margin="2">
             Save
         </Button>
 
@@ -94,7 +94,7 @@
         <Button x:Name="Button_Send"
                 Grid.Row="4"
                 Grid.Column="1"
-                Margin="2" Click="Button_Send_Click">
+                Margin="2">
             Send
         </Button>
     </Grid>
